@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "888460418537",
+    "firebase_url": "https://fcm-notificition-12a28-default-rtdb.firebaseio.com",
+    "project_id": "fcm-notificition-12a28",
+    "storage_bucket": "fcm-notificition-12a28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888460418537:android:8001738ebd038d2ccf7f78",
+        "android_client_info": {
+          "package_name": "com.arkapps.dailyquotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888460418537-fjgvvchaakrqbehq70ek9sc361ie0boa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhXDDV5MlmXHcDXV9gRxy_ttTr7_5yjro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888460418537-fjgvvchaakrqbehq70ek9sc361ie0boa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888460418537:android:d7429d8c66ec4978cf7f78",
+        "android_client_info": {
+          "package_name": "com.attitude.ssc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888460418537-fjgvvchaakrqbehq70ek9sc361ie0boa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhXDDV5MlmXHcDXV9gRxy_ttTr7_5yjro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888460418537-fjgvvchaakrqbehq70ek9sc361ie0boa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888460418537:android:9cb9f1165e698502cf7f78",
+        "android_client_info": {
+          "package_name": "com.sad.abhijit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888460418537-fjgvvchaakrqbehq70ek9sc361ie0boa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhXDDV5MlmXHcDXV9gRxy_ttTr7_5yjro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888460418537-fjgvvchaakrqbehq70ek9sc361ie0boa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

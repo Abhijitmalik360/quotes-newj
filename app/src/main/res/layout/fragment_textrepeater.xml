@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.TextrepeaterFragment">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="18dp"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+       >
+
+
+
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:padding="16dp"
+               android:text="Aa Enter Text">
+
+           </TextView>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:background="@drawable/rounded_white_background"
+               android:layout_height="wrap_content">
+               <EditText
+
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/editTextInput"
+                   android:textSize="20sp"
+                   android:layout_margin="14dp"
+                    android:background="#F4F6F8"
+                   android:text="I love You ❤💕🥰"/>
+
+           </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+           android:layout_marginHorizontal="10dp"
+            android:text="Repetition">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+
+
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="120dp"
+
+                android:background="@drawable/rounded_white_background"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp">
+                <EditText
+                    android:id="@+id/editTextRepetition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20sp"
+                    android:layout_margin="14dp"
+                    android:inputType="number"
+                    android:background="#F4F6F8"
+                    android:text="20"/>
+
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="140dp"
+                android:layout_marginTop="14dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:id="@+id/buttonRepeat"
+              android:layout_marginStart="20dp"
+
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_green_background"
+                android:textSize="17dp"
+
+                android:text="Repeat Text">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:gravity="center"
+              android:visibility="gone"
+
+              android:id="@+id/flashbutton"
+              android:layout_marginTop="14dp"
+              android:layout_marginStart="40dp"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+
+
+          </LinearLayout>
+
+            </LinearLayout>
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:background="@drawable/result_background"
+
+             android:orientation="vertical">
+
+             <ScrollView
+                 android:layout_width="match_parent"
+                 android:layout_height="300dp">
+                 <TextView
+                     android:layout_width="match_parent"
+                   android:paddingStart="10dp"
+                     android:id="@+id/textViewResult"
+                     android:paddingTop="10dp"
+                     android:paddingEnd="10dp"
+                     android:text="I love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\nI love You ❤💕🥰\n "
+                     android:layout_marginStart="8dp"
+                     android:textStyle="italic"
+                     android:textColor="@color/black"
+                     android:textSize="18dp"
+
+                     android:layout_height="match_parent">
+
+                 </TextView>
+             </ScrollView>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:padding="10dp"
+                 android:layout_margin="10dp"
+                 android:background="#ECF1F6"
+                 android:orientation="horizontal">
+
+                 <Button
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"
+                   android:id="@+id/copy"
+
+
+                     android:background="@drawable/ic_copy"
+
+                    >
+
+                 </Button>
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:text="                           "
+                     android:layout_height="wrap_content">
+
+                 </TextView>
+                 <Button
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"
+                     android:id="@+id/share"
+
+                     android:background="@drawable/ic_share"
+                     >
+
+                 </Button>
+
+             </LinearLayout>
+
+
+
+         </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </FrameLayout>
+
+
+
+

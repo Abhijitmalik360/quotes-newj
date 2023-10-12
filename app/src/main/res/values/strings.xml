@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Love Quotes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trending">Trending</string>
+    <string name="category">Category</string>
+    <string name="favorite">Favorite</string>
+    <string name="setting">Setting</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="share_app">Share app</string>
+    <string name="leave_a_review">Leave a review</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="bug_report">Bug report</string>
+    <string name="request_feature">Request new feature</string>
+    <string name="share_using">Share using</string>
+</resources>

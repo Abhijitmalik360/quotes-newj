@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize"
+    tools:context=".fragments.SettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/night_mode_container"
+        android:padding="20dp">
+        <ImageView
+            app:tint="?attr/colorControlNormal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_night_mode"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/night_mode"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/night_mode_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/share_container"
+        android:padding="20dp">
+        <ImageView
+            app:tint="?attr/colorControlNormal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_share"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share_app"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/directtalk"
+        android:padding="20dp">
+        <ImageView
+            app:tint="?attr/colorControlNormal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/iconww"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direct Talk to Devlopher"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:textColor="?android:attr/textColorPrimary"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/review_container"
+        android:padding="20dp">
+        <ImageView
+            app:tint="?attr/colorControlNormal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_star"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leave_a_review"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:textColor="?android:attr/textColorPrimary"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/privacy_container"
+        android:padding="20dp">
+        <ImageView
+            app:tint="?attr/colorControlNormal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_privacy_policy"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/privacy_policy"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:textColor="?android:attr/textColorPrimary"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/request_feature_container"
+        android:padding="20dp">
+        <ImageView
+            app:tint="?attr/colorControlNormal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_email"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/request_feature"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:textColor="?android:attr/textColorPrimary"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/bug_container"
+
+        android:padding="20dp">
+        <ImageView
+            app:tint="?attr/colorControlNormal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_bug_report"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bug_report"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:textColor="?android:attr/textColorPrimary"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

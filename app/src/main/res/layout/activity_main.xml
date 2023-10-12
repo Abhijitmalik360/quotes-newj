@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.gauravk.bubblenavigation.BubbleNavigationConstraintView
+        android:id="@+id/top_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="380dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:elevation="4dp"
+        android:padding="12dp"
+        app:bnc_mode="spread">
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/trending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+
+            app:bt_colorActive="@android:color/holo_orange_dark"
+            app:bt_colorInactive="@android:color/darker_gray"
+            app:bt_icon="@drawable/tranding"
+            app:bt_title="@string/trending"
+            app:bt_padding="10dp"
+            app:bt_titlePadding="10dp" />
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="@android:color/holo_orange_dark"
+            app:bt_colorInactive="@android:color/darker_gray"
+            app:bt_icon="@drawable/ic_category"
+            app:bt_title="@string/category"
+            app:bt_padding="10dp"
+            app:bt_titlePadding="10dp" />
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="@android:color/holo_orange_dark"
+            app:bt_colorInactive="@android:color/darker_gray"
+            app:bt_icon="@drawable/ic_favorite"
+            app:bt_title="@string/favorite"
+            app:bt_padding="10dp"
+            app:bt_titlePadding="10dp" />
+
+
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/repate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="@android:color/holo_orange_dark"
+            app:bt_colorInactive="@android:color/darker_gray"
+            app:bt_icon="@drawable/ic_copy"
+            app:bt_title="Text Repeater"
+            app:bt_padding="10dp"
+            app:bt_titlePadding="10dp" />
+
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="@android:color/holo_orange_dark"
+            app:bt_colorInactive="@android:color/darker_gray"
+            app:bt_icon="@drawable/ic_setting"
+            app:bt_title="@string/setting"
+            app:bt_padding="10dp"
+            app:bt_titlePadding="10dp" />
+
+
+
+        <!-- Add more child items here - max upto 5 -->
+
+    </com.gauravk.bubblenavigation.BubbleNavigationConstraintView>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/view_pager"/>
+<!--    <FrameLayout-->
+<!--        android:id="@+id/fragment_container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+
+</RelativeLayout>
